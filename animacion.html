@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>segunda tarea que me puso chris</title>
+        <style>
+          
+            #web{
+                animation-name: mianimacion;
+                animation-duration: 15s;
+                animation-delay: 1s;
+                position: relative;
+            }
+            @keyframes mianimacion{
+                0% {margin-top: 0px;}
+                25% {margin-top: 1000px;}
+                50% {margin-top: 2000px;}
+                75% {margin-top: 2300px;}
+                100% {margin-top: 2600px;}
+            }
+            body {
+                font-family: "raleway", sans-serif;
+            }
+            section {
+                margin: 0 auto;
+                max-width: 1100px;
+            }
+            .display-padre {
+                display: flex;
+                gap: 200px;
+                margin-top: 20px;
+            }
+
+            .menu-seleccionable {
+                margin-top: 25px;
+            }
+            .left {
+                margin-left: 400px;
+            }
+
+            .inicio {
+                display: flex;
+                gap: 20px;
+            }
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+            .seleccion1 {
+                background: black;
+                color: white;
+                padding: 8px 20px;
+                border-radius: 30px;
+            }
+
+            .seleccion2 {
+                border: solid;
+                padding: 8px 15px;
+                border-radius: 30px;
+            }
+            span {
+                cursor: pointer;
+            }
+            .spansito {
+                background: black;
+                border-radius: 30px;
+                color: white;
+                padding: 8px 15px;
+            }
+
+            .primer-heading {
+                font-size: 60px;
+            }
+
+            .formulario-informativo {
+                margin-top: 100px;
+            }
+            .formulario-padre {
+                display: flex;
+                gap: 210px;
+            }
+            .img1 {
+                margin-top: 60px;
+            }
+            .numeros {
+                display: flex;
+                gap: 160px;
+                color: white;
+                background-color: mediumblue;
+            }
+            .numeros-formulario {
+                display: flex;
+                gap: 10px;
+                align-items: center;
+                margin-top: 20px;
+            }
+            .font {
+                font-size: 40px;
+            }
+            .opciones-de-vida {
+                display: flex;
+                gap: 60px;
+                margin-top: 70px;
+            }
+            .img-aleatoria {
+                border-radius: 30px;
+            }
+
+            .icon-padre {
+                display: flex;
+                gap: 200px;
+            }
+            .destino {
+                display: flex;
+                gap: 30px;
+                border: solid gray 2px;
+                border-radius: 30px;
+                padding: 10px;
+                cursor: pointer;
+            }
+            .destino:hover {
+                box-shadow: 10px 5px 10px;
+                transition: 0.4s;
+            }
+            .lupa {
+                border-radius: 40px;
+            }
+            .display-img {
+                display: flex;
+                margin-top: 80px;
+                gap: 210px;
+            }
+            .parrafont {
+                font-size: 25px;
+            }
+            .flex-de-3-divs {
+                display: flex;
+                gap: 40px;
+                margin-top: 100px;
+            }
+            .place {
+                margin-top: 10px;
+                height: 20px;
+                border-radius: 30px;
+                padding: 5px 10px;
+                border: black solid 1px;
+            }
+            .place:hover {
+                border: red solid 2px;
+                transition: all 0.4s;
+            }
+            .spansito2 {
+                background: black;
+                border-radius: 30px;
+                color: white;
+                padding: 8px 15px;
+            }
+            .ultimo-section {
+                display: flex;
+                gap: 300px;
+            }
+            .flecha {
+                margin-top: 20px;
+            }
+            .primer-y-ultimo-article{
+                display: flex;
+                background: mediumblue;
+                color: white;
+                gap: 150px;
+                padding: 100px;
+                margin-top: 10px;
+            }
+            .talvez-el-ultimo-div{
+                display: flex;
+                gap: 15px;
+            }
+            .align{
+                text-align: center;
+                background: mediumblue;
+                color: white;
+            }
+        </style>
+    </head>
+    <body id="web">
+        
+        <section class="display-padre">
+            <div class="inicio">
+                <img src="img-projectchris/Campty.jpg" width="50px" />
+                <h3 style="font-size: 20px">Campty.</h3>
+            </div>
+            <div class="menu-seleccionable">
+                <div>
+                    <a href="#">Home</a>
+                    <a href="#">About</a>
+                    <a href="#">Pricing</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Blog</a>
+                </div>
+
+                <div class="left">
+                    <span class="seleccion1">Login</span>
+                    <span class="seleccion2">Register</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="formulario-padre">
+            <div class="formulario-informativo">
+                <h1 class="primer-heading">
+                    Cabin In The<br />
+                    Woods But In<br />
+                    A Good Way!
+                </h1>
+                <p>
+                    Now you can enjoy camping anywhere and anytime <br />
+                    and of course it's safe with us.
+                </p>
+                <span class="spansito">Get Stared</span>
+            </div>
+            <div>
+                <img
+                    src="img-projectchris/sellphone-information.jpg"
+                    width="400"
+                    class="img1"
+                />
+            </div>
+        </section>
+        <section class="numeros">
+            <div class="numeros-formulario">
+                <h1 class="font">10</h1>
+                <p>
+                    Years of<br />
+                    Experience
+                </p>
+            </div>
+
+            <div class="numeros-formulario">
+                <h1 class="font">1K+</h1>
+                <p>
+                    Camping<br />
+                    Destination
+                </p>
+            </div>
+
+            <div class="numeros-formulario">
+                <h1 class="font">8K</h1>
+                <p>
+                    Happy<br />
+                    Customer
+                </p>
+            </div>
+
+            <div class="numeros-formulario">
+                <h1 class="font">4,2</h1>
+                <p>
+                    Overall<br />
+                    Rating
+                </p>
+            </div>
+        </section>
+        <section>
+            <div class="opciones-de-vida">
+                <div>
+                    <h1 class="font">
+                        That The Way<br />
+                        To Camp!
+                    </h1>
+                    <p>
+                        Try a variety of benefits when<br />
+                        using our services
+                    </p>
+                </div>
+                <div>
+                    <img src="img-projectchris/tierra.png" width="50px" />
+                    <h2>Lot Of Choises</h2>
+                    <p>
+                        We have 1K+ camping<br />
+                        destination that working <br />
+                        with us.
+                    </p>
+                </div>
+                <div>
+                    <img src="img-projectchris/maleta.png" width="50px" />
+                    <h2>Best Camp Guide</h2>
+                    <p>
+                        Our camp guide is ready<br />
+                        to guide you anytime &<br />
+                        anywhere.
+                    </p>
+                </div>
+                <div>
+                    <img
+                        src="img-projectchris/tarjeta-de-embarque.png"
+                        width="50px"
+                    />
+                    <h2>Easy Booking</h2>
+                    <p>
+                        With an easy, safe and<br />
+                        fast ticket purchase<br />
+                        process.
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="icon-padre">
+            <div>
+                <div>
+                    <img src="img-projectchris/Ubicaciones.jpg" width="400" />
+                </div>
+            </div>
+            <div>
+                <div>
+                    <h1 class="font">
+                        Forest, Starry Night,<br />
+                        Campfire, What Else<br />
+                        Do You Need?
+                    </h1>
+                    <p>
+                        Explore more than 1k camping destinations, find your<br />
+                        most comfortable place to camp and book now.
+                    </p>
+                </div>
+                <div class="destino">
+                    <div>
+                        <img
+                            src="img-projectchris/marcador-de-posicion.png"
+                            width="20px"
+                        />
+
+                        <h3>Location</h3>
+                        <p>Choose Destination</p>
+                    </div>
+
+                    <div>
+                        <img
+                            src="img-projectchris/calendario.png"
+                            width="20px"
+                        />
+                        <h3>Date</h3>
+                        <p>Add Date</p>
+                    </div>
+                    <div>
+                        <img
+                            src="img-projectchris/lupa.jpg"
+                            width="30px"
+                            class="lupa"
+                        />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="display-img">
+            <div>
+                <div>
+                    <h1 class="font">
+                        Community service<br />
+                        Is calling, No Need<br />
+                        For Stalling.
+                    </h1>
+                    <p>
+                        Want more fun camping, join our community<br />
+                        to get friends to camp together and feel the<br />
+                        sensation.
+                    </p>
+                </div>
+                <div>
+                    <span class="spansito">Join Comunity</span>
+                </div>
+            </div>
+            <div>
+                <div>
+                    <img src="img-projectchris/red.jpg" width="400" />
+                </div>
+            </div>
+        </section>
+        <section>
+            <div>
+                <div>
+                    <h1 class="font">
+                        Satisfied Customers Are<br />
+                        Our Best Ads.
+                    </h1>
+                </div>
+            </div>
+            <div class="flex-de-3-divs">
+                <div>
+                    <img src="img-projectchris/comillas.jpg" width="60" />
+                    <p class="parrafont">
+                        "Thanks to Campty I can now<br />
+                        realize my dream of camping<br />
+                        around the world"
+                    </p>
+                    <img src="img-projectchris/james.jpg" width="200" />
+                </div>
+                <div>
+                    <img src="img-projectchris/comillas.jpg" width="60" />
+                    <p class="parrafont">
+                        "I think this is the best camping<br />
+                        service I have ever tried and I<br />
+                        recommend it to you"
+                    </p>
+                    <img src="img-projectchris/teresa.jpg" width="200" />
+                </div>
+                <div>
+                    <img src="img-projectchris/comillas.jpg" width="60" />
+                    <p class="parrafont">
+                        "Campty helps me a lot in<br />
+                        finding interesting camping<br />
+                        destinations"
+                    </p>
+                    <img src="img-projectchris/wade.jpg" width="200" />
+                </div>
+            </div>
+        </section>
+        <section class="ultimo-section">
+            <div>
+                <div>
+                    <h1 class="font">
+                        Got A Question<br />
+                        For Campty?
+                    </h1>
+                    <p>
+                        If there are questions you want to ask,<br />
+                        we will answer all your questions.
+                    </p>
+                </div>
+                <div>
+                    <input placeholder="Enter Your Email" class="place" />
+                    <label class="spansito2" style="cursor: pointer;">Submit</label>
+                </div>
+            </div>
+            <div class="flecha">
+                <div>
+                    <h2>
+                        Maybe your question is have been<br />
+                        answered, check this out.
+                    </h2>
+                </div>
+
+                <div class="flecha">
+                    <p>What is Campty?</p>
+                </div>
+                <hr />
+                <div class="flecha">
+                    <p>How to book tikets?</p>
+                </div>
+                <hr />
+                <div class="flecha">
+                    <p>What kind of service will i get?</p>
+                </div>
+            </div>
+        </section>
+        <article class="primer-y-ultimo-article">
+            <div class="talvez-el-ultimo-div">
+                <div>
+                    <img src="img-projectchris/Campty-white.jpg" width="50" />
+                </div>
+                <div>    
+                    <h1>Campty.</h1>
+                    <p>
+                        We always make our Customer<br/>
+                        happy by providing as many<br/>
+                        choises as possible.
+                    </p>
+                </div>
+            </div>
+
+                </div>
+                <div>
+                    <h2>Company</h2>
+                    <p>About Us</p>
+                    <p>Features</p>
+                    <p>News</p>
+                    <p>FAQ</p>
+                </div>
+                <div>
+                    <h2>Resources</h2>
+                    <p>Events</p>
+                    <p>Promo</p>
+                    <p>Req Demo</p>
+                </div>
+                <div>
+                    <h2>Support</h2>
+                    <p>Account</p>
+                    <p>Support Center</p>
+                    <p>Feedback</p>
+                    <p>Contact Us</p>
+                    <p>Accesbility</p>  
+                </div>
+                <div>
+                    <h2>Contact Info</h2>
+                    <p>Campty@gmail.com</p>
+                    <img src="img-projectchris/instagram.png" width="30">
+                    <img src="img-projectchris/facebook.png" width="30">
+                    <img src="img-projectchris/gorjeo.png" width="30">
+                </div>
+            </div>    
+           
+        </article>
+        <div class="align">
+    
+    </body>
+</html>
